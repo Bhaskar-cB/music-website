@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="top-most">
+        <div class="left">
+            <input type="text" placeholder="Search lyrics & more" >
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+            
+        </div>
+        <div class="middle">
+           <a href=""><h1>GENIUS</h1></a>
+        </div>
+        <a href="">
+        <div class="right">
+            <button class="btn">SIGN IN</button>
+            <button class="btn">SIGN UP</button>
+        </div>
+        </a>
+    </section>
+    <section class="second-container">
+        <div class="container nav-link">
+            <div class="home-class">
+                <a href="#">THE 50TH</a>
+                <a href="#">FEATURED</a>
+                <a href="#">CHARTS</a>
+                <a href="#">VIDEOS</a>
+                <a href="#">PROMOTE YOUR MUSIC</a>
+            </div>
+            <div class="icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="hero">
+        <div class="container hero-heading">
+            <div class="title">
+                <h1>CHARTS</h1>
+            </div>
+            <div class="btn">
+                <a href="#">SONGS / ALL GENRES / TODAY <i class="fa-sharp fa-light fa-square-chevron-down" id="bmc"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="playlist">
+        <a href="#">
+        <div class="container section-playlist">
+            <div class="s-no">1</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">I can </h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+            <i style="color:black" id="0" class=" songItemPlay fa-regular fa-circle-play" ></i>
+        </div>
+        <div class="container section-playlist" data-id="1">
+            <div class="s-no">2</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">Vampire</h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+            <i style="color:black" id="1" class="  songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        <div class="container section-playlist">
+            <div class="s-no">3</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">When emma </h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+           <i style="color:black" id="2"class=" songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        <div class="container section-playlist">
+            <div class="s-no">4</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">Foolish one</h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+           <i style="color:black" id= "3" class=" songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        <div class="container section-playlist">
+            <div class="s-no">5</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">Timeless</h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+           <i style="color:black" id="4" class=" songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        <div class="container section-playlist">
+            <div class="s-no">6</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">Sprinter</h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+           <i style="color:black" id="5" class=" songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        <div class="container section-playlist">
+            <div class="s-no">7</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">YOASOBI</h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+          <i style="color:black" id="6" class=" songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        <div class="container section-playlist">
+            <div class="s-no">8</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">Castles crumbling</h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+          <i style="color:black" id="7" class=" songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        <div class="container section-playlist">
+            <div class="s-no">9</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">Super shy</h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+           <i style="color:black" id="8" class=" songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        <div class="container section-playlist">
+            <div class="s-no">10</div>
+            <img src="/image/taylor.jpg" alt="">
+            <h3 class="songName">Lose yourself</h3>
+            <h4 class="singer-name">Taylor swift</h4>
+            <div class="views">706.1k</div>
+           <i style="color:black" id="9" class=" songItemPlay fa-regular fa-circle-play"></i>
+        </div>
+        </a>
+    </section>
+    <section class="bottom">
+        <div class="container">
+            <div class="progressBar">
+                <input type="range" name="range" id="myProgressbar" value="0">
+                <span id="masterSongName">let me love you</span>
+                <div class="icons">
+                    <i class="fa-solid fa-backward-fast" id="previous"></i>
+                    <i class=" fa-regular fa-circle-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-fast" id="next"></i>
+                </div>
+              
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/c2d1bc0823.js" crossorigin="anonymous"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

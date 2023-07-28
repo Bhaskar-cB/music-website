@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* TOP-MOST */
+.top-most {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:#ffff64;
+}
+#search{
+    position: relative;
+    top: 0;
+    margin-left: 30px;
+}
+.middle h1{
+    font-size: 25px;
+    letter-spacing: 10px;
+    color:#ffff64;
+    text-align: center;
+    text-shadow: -2px -2px black;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+.left input{
+    margin: 1px;
+    padding: 5px 5px;
+    border: transparent;
+}
+.left .placeholder{
+    color: black;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+/* second-container */
+i{
+    color: white;
+}
+.second-container {
+    background-color: black;
+    padding-block: 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.home-class {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.home-class a {
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid white;
+    padding-inline: 20px;
+}
+.icon{
+    display: flex;
+    margin-left: 40px;
+    gap: 20px;
+}
+/* hero-section */
+.hero-heading {
+    margin-block: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 80px;
+}
+
+.btn a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+/* playlist-section */
+.playlist{
+    background-color: rgb(174 198 190);
+}
+.playlist a{
+    text-decoration: none;
+    color: black;
+}
+.section-playlist {
+    display:grid;
+    grid-template-columns: 1fr 1fr 4fr 2fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #e4e1e1;
+    padding-block: 10px;
+}
+
+.section-playlist img {
+    width: 80px;
+}
+.section-playlist h4{
+    font-weight: 200;
+    font-size: 20px;
+}
+/* bottom-section */
+.bottom{
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    bottom:0px;
+}
+#myProgressbar{
+    width: 80vw;
+    margin-top: 20px;
+}
+.icons{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+span{
+    color: white;
+    font-weight: 300;
+}
